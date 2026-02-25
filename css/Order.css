@@ -1,0 +1,87 @@
+/* ===== BUTTON ===== */
+.btn {
+  background:#F6B26B;
+  padding:10px 20px;
+  border-radius:8px;
+  text-decoration:none;
+  color:#333;
+  font-weight:bold;
+  border:none;
+  cursor:pointer;
+}
+
+
+.btn:hover {
+  background:#e09d50;
+}
+
+
+/* ===== MENU ===== */
+.menu-section-title {
+  width:100%;
+  margin:40px 20px 10px;
+  font-size:28px;
+  border-bottom:3px solid #F6B26B;
+  padding-bottom:5px;
+}
+
+
+.menu-items {
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  padding:20px;
+}
+
+
+.menu-card {
+  border:1px solid #ccc;
+  border-radius:8px;
+  padding:10px;
+  width:250px;
+  text-align:center;
+  background:white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.menu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+
+.menu-card img{
+  width:100%;
+  border-radius:8px;
+}
+
+
+.menu-card h3 {
+  margin:10px 0 5px;
+}
+
+
+.menu-card p {
+  margin:5px 0;
+}
+
+
+/* ===== ORDER ===== */
+.order-form {
+  padding:20px;
+}
+
+
+.order-form input{
+  margin-left:10px;
+}
+
+
+/* ===== TESTIMONIALS ===== */
+.testimonials {
+  padding:20px;
+  text-align:center;
+  font-style:italic;
+  font-size:1.2em;
+}

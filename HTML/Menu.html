@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu | KeyTop Fresh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Menu.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+ 
+<body>
+ 
+<!-- ================= HEADER ================= -->
+<header class="navbar">
+    <div class="container nav-wrapper">
+ 
+        <img src="/images/logo-header.jpg" alt="KeyTop Fresh Logo" class="logo">
+ 
+        <nav>
+            <ul class="nav-links">
+                <li><a href="/HTML/index.html">Home</a></li>
+                <li><a href="/HTML/menu.html" class="active">Menu</a></li>
+                <li><a href="/HTML/order.html">Order</a></li>
+                <li><a href="/HTML/about.html">About</a></li>
+            </ul>
+        </nav>
+ 
+        <div class="cart-icon">
+            <a href="/HTML/order.html">
+                🛒 <span id="cart-count" class="cart-count">0</span>
+            </a>
+        </div>
+ 
+    </div>
+</header>
+ 
+<!-- ================= HERO ================= -->
+<section class="menu-hero menu-banner">
+    <div class="container">
+        <h1>Our Fresh Menu</h1>
+        <p>Healthy choices for the whole family.</p>
+    </div>
+</section>
+ 
+<!-- ================= MAIN ================= -->
+<main class="menu-page container">
+ 
+    <!-- ================= Fresh Juices ================= -->
+    <section class="menu-section">
+        <h2>Fresh Juices</h2>
+ 
+        <div class="product-grid">
+ 
+            <!-- Existing Products -->
+            <article class="product-card">
+                <img src="/Images/orange-juice.jpg" alt="Orange Boost">
+                <h3>Orange Boost</h3>
+                <p>Fresh squeezed oranges full of vitamin C.</p>
+                <p class="price">$5</p>
+                <button class="add-to-cart"
+                        data-name="Orange Boost"
+                        data-price="5">
+                    Add to Cart
+                </button>
+            </article>
+ 
+            <article class="product-card">
+                <img src="/Images/mango-juice.jpg" alt="Mango Delight">
+                <h3>Mango Delight</h3>
+                <p>Sweet tropical mango blend.</p>
+                <p class="price">$6</p>
+                <button class="add-to-cart"
+                        data-name="Mango Delight"
+                        data-price="6">
+                    Add to Cart
+                </button>
+            </article>
+ 
+            <!-- New Products -->
+            <article class="product-card">
+                <img src="/Images/strawberry-juice.jpg" alt="Strawberry Fresh">
+                <h3>Strawberry Fresh</h3>
+                <p>Fresh blended strawberries with natural sweetness and a refreshing finish.</p>
+                <p class="price">$6</p>
+                <button class="add-to-cart"
+                        data-name="Strawberry Fresh"
+                        data-price="6">
+                    Add to Cart
+                </button>
+            </article>
+ 
+            <article class="product-card">
+                <img src="/Images/watermelon-juice.jpg" alt="Watermelon Chill">
+                <h3>Watermelon Chill</h3>
+                <p>Fresh watermelon blended into a cool, hydrating summer drink.</p>
+                <p class="price">$6</p>
+                <button class="add-to-cart"
+                        data-name="Watermelon Chill"
+                        data-price="6">
+                    Add to Cart
+                </button>
+            </article>
+ 
+        </div>
+    </section>
+ 
+ 
+    <!-- ================= Smoothies ================= -->
+    <section class="menu-section">
+        <h2>Smoothies</h2>
+ 
+        <div class="product-grid">
+ 
+            <article class="product-card">
+                <img src="/Images/kiwi-juice.jpg" alt="Kiwi Vital Smoothie">
+                <h3>Kiwi Vital Smoothie</h3>
+                <p>Energizing kiwi smoothie rich in vitamin C and natural antioxidants.</p>
+                <p class="price">$6</p>
+                <button class="add-to-cart"
+                        data-name="Kiwi Vital Smoothie"
+                        data-price="6">
+                    Add to Cart
+                </button>
+            </article>
+ 
+        </div>
+    </section>
+ 
+ 
+    <!-- ================= Milkshakes ================= -->
+    <section class="menu-section">
+        <h2>Milkshakes</h2>
+ 
+        <div class="product-grid">
+ 
+            <article class="product-card">
+                <img src="/Images/milkshake-cocktail-juice.jpg" alt="Strawberry Banana Milkshake">
+                <h3>Strawberry Banana Milkshake</h3>
+                <p>Creamy strawberry and banana milkshake topped with whipped cream and sprinkles.</p>
+                <p class="price">$7</p>
+                <button class="add-to-cart"
+                        data-name="Strawberry Banana Milkshake"
+                        data-price="7">
+                    Add to Cart
+                </button>
+            </article>
+ 
+        </div>
+    </section>
+ 
+ 
+    <!-- ================= Fruit Salads ================= -->
+    <section class="menu-section">
+        <h2>Fruit Salads</h2>
+ 
+        <div class="product-grid">
+ 
+            <article class="product-card">
+                <img src="/Images/fruit-salad.jpg" alt="Tropical Mix">
+                <h3>Tropical Mix</h3>
+                <p>Fresh seasonal fruits served chilled.</p>
+                <p class="price">$7</p>
+                <button class="add-to-cart"
+                        data-name="Tropical Mix"
+                        data-price="7">
+                    Add to Cart
+                </button>
+            </article>
+ 
+        </div>
+    </section>
+ 
+ 
+    <!-- ================= Ice Cream ================= -->
+    <section class="menu-section">
+        <h2>Ice Cream</h2>
+ 
+        <div class="product-grid">
+ 
+            <article class="product-card">
+                <img src="/Images/ice-cream.jpg" alt="Vanilla Dream">
+                <h3>Vanilla Dream</h3>
+                <p>Creamy vanilla ice cream scoop.</p>
+                <p class="price">$4</p>
+                <button class="add-to-cart"
+                        data-name="Vanilla Dream"
+                        data-price="4">
+                    Add to Cart
+                </button>
+            </article>
+ 
+        </div>
+    </section>
+ 
+</main>
+ 
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <p>© 2026 KeyTop Fresh. All Rights Reserved.</p>
+</footer>
+ 
+<script src="/JS/Main.js"></script>
+ 
+</body>
+</html>
+ 

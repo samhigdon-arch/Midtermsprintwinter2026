@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KeyTop Fresh</title>
+  <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/Order.css">
+
+</head>
+<body>
+<header>
+  <img src="/Images/logo.jpg.png " width="200px" height="200px" alt="Logo">
+  <nav>
+    <ul>
+      <li><a href="/HTML/index.html">Home</a></li>
+      <li><a href="/HTML/menu.html">Menu</a></li>
+      <li><a href="/HTML/order.html">Order Online</a></li>
+      <li><a href="/HTML/about.html">About Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<main>
+  <section class="order-form">
+    <h1>Place Your Order</h1>
+    <form id="order-form">
+      <label>Name: <input type="text" id="name" required></label>
+      <label>Phone: <input type="tel" id="phone" required></label>
+      <label>Address: <input type="text" id="address" required></label>
+      <label>Special Instructions: <textarea id="special-instructions"></textarea></label>
+
+
+      <div id="cart-items">
+        <!-- JS will inject order items -->
+      </div>
+
+
+    <p>Items: <span id="total-items">0</span></p>
+    <p>Subtotal: $<span id="subtotal-amount">0.00</span></p>
+    <p>Tax (15%): $<span id="tax-amount">0.00</span></p>
+    <p><strong>Total: $<span id="total-price">0.00</span></strong></p>
+
+
+      <button type="submit">Place Order</button>
+    </form>
+  </section>
+</main>
+
+
+<footer>
+  <p>&copy; 2026 KeyTop Fresh</p>
+</footer>
+<script src="/JS/Main.js"></script>
+</body>
+</html>
+
